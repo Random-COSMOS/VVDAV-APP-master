@@ -14,6 +14,10 @@ import chairmanScreen from "./screens/imp-people/chairman"
 import viceChairmanScreen from "./screens/imp-people/vicechairmen"
 import mantraScreen from "./screens/mantra"
 import mantraPage1 from "./screens/mantra-pages/mantra1"
+import mantraPage2 from "./screens/mantra-pages/mantra2"
+import mantraPage3 from "./screens/mantra-pages/mantra3"
+import mantraPage4 from "./screens/mantra-pages/mantra4"
+import mantraPage5 from "./screens/mantra-pages/mantra5"
 // import suryaNamaskarScreen from "./screens/suryaNamaskar";
 
 const retreiveData = async (f) => {
@@ -45,6 +49,10 @@ export default function App() {
                     <Stack.Screen name="Vice-Chairman" component={viceChairmanScreen} options={{headerTintColor: '#00f'}}/>
                     <Stack.Screen name="Mantra" component={mantraScreen} options={{headerShown:false}}/>
                     <Stack.Screen name="Mantra1" component={mantraPage1} options={{headerTintColor: '#00f'}}/>
+                    <Stack.Screen name="Mantra2" component={mantraPage2} options={{headerTintColor: '#00f'}}/>
+                    <Stack.Screen name="Mantra3" component={mantraPage3} options={{headerTintColor: '#00f'}}/>
+                    <Stack.Screen name="Mantra4" component={mantraPage4} options={{headerTintColor: '#00f'}}/>
+                    <Stack.Screen name="Mantra5" component={mantraPage5} options={{headerTintColor: '#00f'}}/>
                 </Stack.Navigator>
             </NavigationContainer>
     );
