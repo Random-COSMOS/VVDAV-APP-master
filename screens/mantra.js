@@ -21,7 +21,7 @@ const Mantra = ({navigation}) =>  {
                         </View>
                     </TouchableHighlight>
 
-                    <TouchableHighlight onPress={() => navigation.navigate("MantraPage")}>
+                    <TouchableHighlight onPress={() => navigation.navigate("Mantra2")}>
                         <View style={styles.mantra}>
                             <Text>Mantra 2</Text>
                         </View>
@@ -29,13 +29,13 @@ const Mantra = ({navigation}) =>  {
                 </View>
 
                 <View style={styles.row}>
-                    <TouchableHighlight onPress={() => navigation.navigate("MantraPage")}>
+                    <TouchableHighlight onPress={() => navigation.navigate("Mantra3")}>
                         <View style={styles.mantra}>
                             <Text>Mantra 3</Text>
                         </View>
                     </TouchableHighlight>
 
-                    <TouchableHighlight onPress={() => navigation.navigate("MantraPage")}>
+                    <TouchableHighlight onPress={() => navigation.navigate("Mantra4")}>
                         <View style={styles.mantra}>
                             <Text>Mantra 4</Text>
                         </View>
@@ -43,7 +43,7 @@ const Mantra = ({navigation}) =>  {
                 </View>
 
                 <View style={styles.row}>
-                    <TouchableHighlight onPress={() => navigation.navigate("MantraPage")}>
+                    <TouchableHighlight onPress={() => navigation.navigate("Mantra5")}>
                         <View style={styles.mantra}>
                             <Text>Mantra 5</Text>
                         </View>
